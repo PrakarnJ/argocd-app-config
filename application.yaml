@@ -21,3 +21,7 @@ spec:
     automated:
       selfHeal: true
       prune: true
+  template:
+    metadata:
+      labels:
+        app: myapp
